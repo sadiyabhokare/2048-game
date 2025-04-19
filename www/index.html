@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Favicon links -->
+  <link rel="shortcut icon" type="image/png" href="./images/2048.png">
+  <link rel="icon" type="image/png" href="./images/2048.png">
+  <link rel="apple-touch-icon" href="./images/2048.png">
+  <!-- Importing Roboto font from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2048 Game</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-top">
+        <div class="title">2048</div>
+        <div class="header-info">
+          <div class="scores">
+            <div class="score-box">
+              <div class="score-label">Score</div>
+              <div class="score-value" id="score">0</div>
+            </div>
+            <div class="score-box">
+              <div class="score-label">Best</div>
+              <div class="score-value" id="best-score">0</div>
+            </div>
+          </div>
+          <div class="new-game" id="new-game">New Game</div>
+        </div>
+      </div>
+    </div>
+    <div class="game-container" id="game-container">
+      <div class="grid" id="grid">
+        <!-- 16 cells for the grid -->
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="game-over" id="game-over">
+        <p>Game Over!</p>
+        <div class="try-again" id="try-again">Try Again</div>
+      </div>
+      <div class="game-won" id="game-won">
+        <p>You Won!</p>
+        <div class="try-again" id="keep-going">Keep Going</div>
+      </div>
+    </div>
+  </div>
+  <!-- Link to external JS file -->
+  <script src="script.js" defer></script>
+</body>
+</html>
