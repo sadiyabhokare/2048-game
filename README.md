@@ -74,8 +74,11 @@ The final build will appear inside the `dist/` directory 📁
 ## 🎮 Controls
 
 🎯 Use **arrow keys** to move tiles
+
 🔄 Click **New Game** to restart the board (score retained)
+
 ❌ Game ends when no moves are left
+
 👆 Touch gestures supported on compatible devices
 
 ---
