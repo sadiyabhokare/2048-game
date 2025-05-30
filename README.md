@@ -15,6 +15,17 @@ A sleek and responsive desktop version of the classic 2048 puzzle game! (Electro
 
 ---
 
+## 🧰 Technologies Used
+
+- 🌐 **HTML5** – Game layout and structure  
+- 🎨 **CSS3** – Styling and responsive grid  
+- 💻 **JavaScript** – Game logic and interactions  
+- 🧠 **Electron.js** – Cross-platform desktop application  
+- 🗃️ **localStorage** – Save score and best score  
+- 📷 **Cursor AI** – Assisted development
+
+---
+
 ## 📁 Project Structure
 
 ```
