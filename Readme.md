@@ -1,66 +1,115 @@
-2048 Game — Electron App 🧠🔢
-This is a desktop version of the classic 2048 game, built using HTML, CSS, and JavaScript, and wrapped with Electron to run as a native desktop application. Developed with the help of Cursor AI, this project serves as both a fun game and a showcase of how web apps can be packaged as desktop apps.
+Got it! You want the `README.md`:
 
-📁 Project Structure
+* **Without** the Reset button
+* Reflecting your current (original) setup with **New Game**, Score, and Best Score
+* With instructions for how to **attach a screenshot**
+
+---
+
+### ✅ Final `README.md` (No Reset Button, Clean & Simple)
+
+```markdown
+# 🎮 2048 Game — Electron Desktop App
+
+A sleek and responsive desktop version of the classic 2048 puzzle game. Built using **HTML**, **CSS**, and **JavaScript**, and powered by **Electron.js**. Developed with assistance from **Cursor AI**.
+
+---
+
+## 🚀 Features
+
+- Classic 2048 puzzle gameplay
+- Score and Best Score tracking with `localStorage`
+- New Game functionality
+- Fully responsive grid layout
+- Packaged as a standalone Windows desktop app
+- Touch support for swipes
+
+---
+
+## 📁 Project Structure
+
+```
 
 2048/
-├── dist/                  # Auto-generated build folder (after packaging)
-├── node_modules/          # Installed dependencies
-├── www/                   # Contains HTML, CSS, images (UI assets)
-│   └── images/
-│       └── 2048.ico       # Icon for packaging (must be .ico format)
-├── main.js                # Electron main process script
-├── package.json           # Project metadata and scripts
-├── package-lock.json      # Locked dependency versions
-└── Readme.md              # Project documentation
+├── dist/                        # Output folder for packaged app
+│   └── 2048Game-win32-x64/     # Windows build
+├── node\_modules/               # Dependencies
+├── www/                        # Frontend UI
+│   ├── images/
+│   │   ├── 2048.ico            # App icon for Windows packaging
+│   │   └── 2048.png            # Screenshot / preview icon
+│   ├── index.html              # Game layout
+│   ├── script.js               # Game logic
+│   └── style.css               # Game styles
+├── main.js                     # Electron main process
+├── package.json                # App metadata and scripts
+├── package-lock.json           # Dependency lock
+├── LICENSE                     # MIT License
+└── README.md                   # This file
 
+````
 
-🛠️ Installation & Setup
+---
 
-Step 1: Clone the Repository
+## 🛠️ Getting Started
+
+### Clone & Install
+
+```bash
 git clone https://github.com/sadiyabhokare/2048-game.git
 cd 2048-game
-
-Step 2: Install Dependencies
 npm install
+````
 
-Step 3: Run the App (Development Mode)
+### Run in Development
+
+```bash
 npm start
+```
 
-📦 Package the App for Windows
-To generate a distributable Windows app:
+---
 
-Ensure your icon is a valid .ico file: Place it in the www/images/ directory and name it 2048.ico.
+## 📦 Package for Windows
 
-Run the following command to package the app:
+Ensure the icon is a valid `.ico` file:
+
+```bash
 npm run package
+```
 
-This will create the packaged version in the dist/ folder.
+The final build will appear inside the `dist/` directory.
 
-🔧 Available Scripts
-npm start — Launch the Electron app in development mode.
+---
 
-npm run package — Package the app for Windows using electron-packager.
+## 🎮 Controls
 
-🎮 Features
-Fully functional 2048 game with arrow key controls.
+* Use **arrow keys** to move tiles
+* **New Game** button resets the board (score retained)
+* Game ends when no moves are left
+* Touch gestures work on supported devices
 
-Clean and responsive user interface.
+---
 
-Cross-platform compatible (Electron-powered).
+## 📸 Adding a Screenshot
 
-Easily extendable and customizable with themes.
+```markdown
+## 🖼️ Preview
 
-📄 License
-This project is licensed under the MIT License.
+![Game Preview](./www/images/screenshot.png)
+```
 
-👩‍💻 Developer
-Sadiya Bhokare
-Made with ❤️ using Cursor AI
+Make sure the image file is committed and pushed to GitHub so it appears online.
 
-📸 Preview
-(If you have a screenshot, include it here)
+---
 
-🙋‍♀️ Contributions
-If you'd like to improve this game, feel free to fork the repo and create a pull request!
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👩‍💻 Author
+
+**Sadiya Bhokare**
+Built with ❤️ using [Cursor AI](https://www.cursor.so/)
 
