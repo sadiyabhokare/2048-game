@@ -1,14 +1,3 @@
-Got it! You want the `README.md`:
-
-* **Without** the Reset button
-* Reflecting your current (original) setup with **New Game**, Score, and Best Score
-* With instructions for how to **attach a screenshot**
-
----
-
-### ✅ Final `README.md` (No Reset Button, Clean & Simple)
-
-```markdown
 # 🎮 2048 Game — Electron Desktop App
 
 A sleek and responsive desktop version of the classic 2048 puzzle game. Built using **HTML**, **CSS**, and **JavaScript**, and powered by **Electron.js**. Developed with assistance from **Cursor AI**.
@@ -37,7 +26,8 @@ A sleek and responsive desktop version of the classic 2048 puzzle game. Built us
 ├── www/                        # Frontend UI
 │   ├── images/
 │   │   ├── 2048.ico            # App icon for Windows packaging
-│   │   └── 2048.png            # Screenshot / preview icon
+│   │   └── 2048.png            # Icon
+│   │   └── screenshot.png      # screenshot/ Preview
 │   ├── index.html              # Game layout
 │   ├── script.js               # Game logic
 │   └── style.css               # Game styles
@@ -95,12 +85,10 @@ The final build will appear inside the `dist/` directory.
 ```markdown
 ## 🖼️ Preview
 
-![Game Preview](./www/images/screenshot.png)
+![Screenshot](./www/images/screenshot.png)
+
+
 ```
-
-Make sure the image file is committed and pushed to GitHub so it appears online.
-
----
 
 ## 📄 License
 
